@@ -1,0 +1,31 @@
+Using test first development, write the program described below.
+
+Write a program that will read a file with the following:
+est
+cst
+mst
+pst
+pdt
+cet
+utc
+
+The program should print output in the following format (for example):
+
+code 	Timezone   									Date   					Time
+est		Eastern Standard Time       2020-04-29			21:05
+...
+
+If there was an error, for example for getting time for pst, that line should 
+be displayed like:
+pst Error: --reason---
+where the --reason-- is details about what went wrong.
+
+Write the program so the service at http://worldclockapi.com/api/json/???/now 
+(where ??? can be est, cst, etc.) is used to get the details about the date 
+and time.
+
+Design the program in a way that if we decide to use a different service in 
+the future, we do not have to change, as much as possible, any existing code, 
+but may have to create new pieces of code to integrate with existing code. We 
+can assume that any new service we will use will be able to accept the 
+timezone 3 letter code to return the date and time.

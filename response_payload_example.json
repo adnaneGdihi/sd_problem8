@@ -1,0 +1,16 @@
+{
+  "$id": "1",
+  "currentDateTime": "2021-11-28T15:23-06:00",
+  "utcOffset": "-06:00:00",
+  "isDayLightSavingsTime": false,
+  "dayOfTheWeek": "Sunday",
+  "timeZoneName": "Central Standard Time",
+  "currentFileTime": 132825865892540999,
+  "ordinalDate": "2021-332",
+  "serviceResponse": null
+},
+
+{
+  "$id":"1",
+  "message":"No HTTP resource was found that matches the request URI 'http://worldclockapi.com/api/json/???/now'."
+}
